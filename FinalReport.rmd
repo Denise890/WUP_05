@@ -51,6 +51,8 @@ barchartGC(~infected + treatment,data=females, type="percent")
 
 ```
 
+The plot shows alot of people got aids 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -78,3 +80,5 @@ The ratio is 1.5 to 1 of getting aids if you take the drug
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+We filtered the data set to only project women, the drug didn't work all that well in females 
