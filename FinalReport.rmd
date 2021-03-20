@@ -1,14 +1,23 @@
 ---
 title: "Aides Drug"
-author: "Put your name here!"
-date: "put the date here"
-output: html_document
+author: "Denise Sahagun"
+date: "03/20/2021"
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r include=FALSE,echo=FALSE}
 require(tidyverse)
 require(tigerstats)
 triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
+```
+```{r}
+triUmp$treatment<-as.factor(triUmp$treatment)
+triUmp$infected<-as.factor(triUmp$infected)
+triUmp$LGBTQ<-as.factor(triUmp$LGBTQ)
+triUmp$DrugUser<-as.factor(triUmp$DrugUser)
+triUmp$gender<-as.factor(triUmp$gender)
 ```
 
 # Introduction
